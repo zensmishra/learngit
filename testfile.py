@@ -6,4 +6,5 @@
         getPrint()
 
 if __name__ == "__main__":
+    # This is a main
     main()
