@@ -7,3 +7,5 @@ THIS IS A COMMIT FROM FEATURE 1
 Step 1: DO this
 Step 2: Do that
 Step 3: Do this again
+
+Commit 1 : This is a commit
