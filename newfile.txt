@@ -21,18 +21,6 @@ scala> add(2,3).onComplete(result => println(result))
 Success(5)
 After the Future add(2,3) completes successfully, the onComplete callback receives a Success object containing the result of computing x+y. To extract that inner result for code purposes, we can use pattern matching:
 
-scala> import scala.util.{Success, Failure}
-
-
-:question
-
-scala> add(2,3).onComplete {
-         case Success(n) => println(n)
-         case Failure(e) => println(e.getMessage)
-}
-5
-Alternatively, we can create separate callbacks that fire specifically for successes or for failures:
-
 scala> add(2,3).onSuccess { case n => println(n) }
 5
 
