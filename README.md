@@ -9,3 +9,4 @@ Step 2: Do that
 Step 3: Do this again
 
 Commit 1 : This is a commit
+Commit 2 : This is a commit
