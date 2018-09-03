@@ -1,1 +1,1 @@
-public class Notification{}
+public class NotificationType{}
