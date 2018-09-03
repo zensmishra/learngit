@@ -1,5 +1,5 @@
     def getPrint():
-        print("World is great")
+        print("World is great for the rich")
 
     # Added comments    
     def main():
