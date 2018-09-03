@@ -4,8 +4,7 @@
 
     # Added more comments
     def main():
-        callMain()
-        callMain()
+        callMain() // deleted code
 
 if __name__ == "__main__":
     main()
