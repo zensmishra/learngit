@@ -6,3 +6,4 @@ THIS IS A COMMIT FROM FEATURE 1
 # How to get started
 Step 1: DO this
 Step 2: Do that
+Step 3: Do this again
