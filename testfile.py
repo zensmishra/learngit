@@ -1,6 +1,7 @@
     def getPrint():
         print("World is great")
 
+    # Added comments    
     def main():
         getPrint()
 
