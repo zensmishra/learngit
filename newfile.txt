@@ -1,11 +1,3 @@
-Credera
-OUR FIRM 
-SERVICE AREAS 
-CLIENT STORIES
-INSIGHTS
-CAREERS
-CONTACT US
-
 Mastering Scala: Futures
 Micah Jones Micah Jones April 18, 2017  No Comments
 Writing good multithreaded code is essential to taking full advantage of modern computer hardware. It can also be very difficult, particularly when reasoning about thread safety. Declarative programming solves the thread safety problem by focusing on immutable variables that cannot change their state. If multiple threads can’t modify the same data, then they can run independent of one other, with no need for resource locks. Scala encourages us to write in a declarative, functional manner, and thereby lends itself to highly multithreaded programs.
