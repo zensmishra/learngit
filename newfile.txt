@@ -10,10 +10,6 @@ scala> import scala.concurrent.Future
 scala> import scala.concurrent.ExecutionContext.Implicits.global
 Creating a Future is easy: We need only enclose a block of code as an argument to Future. For example, to create a threaded function that will add two numbers together:
 
-scala> def add(x:Int,y:Int) = Future { x + y }
-add: (x: Int, y: Int) Future[Int]
-Scala will infer that add has a return type of Future[Int], and the enclosed code will execute in its own thread when the function is called.
-
 CALLBACKS
 When a Future completes, we typically want to do something with its result. Scala allows us to define callback functions, which execute upon a Future’s success or failure. In the meantime, the thread that created the Future is unblocked and may continue to execute.
 
